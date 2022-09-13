@@ -20,13 +20,13 @@ function submitTodo(e){
     todoDiv.appendChild(todoItem);
 
     const markBtn = document.createElement('button');
-    markBtn.innerText = 'gfgfgf';
+    markBtn.innerText = 'done';
     todoDiv.append(markBtn);
     markBtn.classList.add('markBtn');
 
 
     const deleteBtn = document.createElement('button');
-    deleteBtn.innerText = 'gfgfgf';
+    deleteBtn.innerText = 'rem';
     deleteBtn.classList.add('deleteBtn');
     todoDiv.append(deleteBtn);
 
