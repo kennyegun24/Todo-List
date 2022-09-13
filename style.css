@@ -46,7 +46,7 @@ input, .submitBtn {
 }
 
 .todoList {
-    min-width: 20%;
+    min-width: 50%;
     list-style-type: none;
 }
 
